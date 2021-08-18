@@ -18,6 +18,11 @@ ul{
   font-style: italic;
 }
 
+main.intro{
+ display: flex;
+  flex-flow: row-wrap;
+}
+
 img{
    padding: 10px;
 }
