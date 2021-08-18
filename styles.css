@@ -23,9 +23,6 @@ main.intro{
  flex-flow: row-wrap;
 }
 
-img{
-   padding: 20px;
-}
 
 div.left{
   float: left;
@@ -35,9 +32,8 @@ div.left{
 div.right{
   float: right;
   font-size: 1.5em;
-  padding: 20px;
   border-style: double;
-  border-width: 5px;
+  border-width: 7px;
   width: 50%;
   margin: auto;
 }
