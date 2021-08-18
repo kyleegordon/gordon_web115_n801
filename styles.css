@@ -14,3 +14,15 @@ ul{
   text-align: left; 
 }
 
+.caption{
+  font-style: italic;
+}
+
+div.left{
+  float: left;
+}
+
+div.right{
+  float: right;
+}
+
