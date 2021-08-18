@@ -29,8 +29,7 @@ img{
 
 div.left{
   float: left;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
 }
 
 div.right{
@@ -38,8 +37,7 @@ div.right{
   border-style: double;
   border-width: 5px;
   width: 50%;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
 }
 
 
