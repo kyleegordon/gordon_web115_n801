@@ -29,6 +29,10 @@ main.eva{
   margin: auto;
 }
 
+main > h2{
+  text-align: center;	
+}
+
 div.left{
   float: left;
   margin: auto;
