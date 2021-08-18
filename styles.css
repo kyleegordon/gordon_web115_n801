@@ -23,6 +23,13 @@ main.intro{
  flex-flow: row-wrap;
 }
 
+main.eva{
+  font-size: 1.5em;
+  border-style: double;
+  border-width: 7px;
+  width: 50%;
+  margin: auto;
+}
 
 div.left{
   float: left;
