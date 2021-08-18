@@ -31,3 +31,14 @@ div.right{
   vertical-align: middle;
 }
 
+div.center{
+  display: block;
+}
+
+footer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
