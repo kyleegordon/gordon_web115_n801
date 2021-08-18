@@ -36,7 +36,7 @@ div.left{
 div.right{
   float: right;
   border-style: double;
-  width: 30%;
+  width: 50%;
   margin-top: auto;
   margin-bottom: auto;
 }
