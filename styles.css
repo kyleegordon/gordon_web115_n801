@@ -18,6 +18,10 @@ ul{
   font-style: italic;
 }
 
+main{
+ display: flex;
+  flex-flow: row-wrap;
+}
 div.left{
   float: left;
 }
