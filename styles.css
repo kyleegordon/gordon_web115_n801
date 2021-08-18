@@ -20,8 +20,9 @@ ul{
 
 main.intro{
  display: flex;
-  flex-flow: row-wrap;
-  vertical-align: middle;
+ flex-flow: row-wrap;
+ margin-top: auto;
+ margin-bottom: auto;
 }
 
 img{
