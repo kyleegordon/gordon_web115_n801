@@ -21,7 +21,6 @@ ul{
 main{
  display: flex;
   flex-flow: row-wrap;
-  vertical-align: middle;
 }
 div.left{
   float: left;
@@ -29,5 +28,6 @@ div.left{
 
 div.right{
   float: right;
+  vertical-align: middle;
 }
 
