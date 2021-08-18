@@ -21,8 +21,6 @@ ul{
 main.intro{
  display: flex;
  flex-flow: row-wrap;
- margin-top: auto;
- margin-bottom: auto;
 }
 
 img{
@@ -31,15 +29,16 @@ img{
 
 div.left{
   float: left;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 div.right{
   float: right;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-div.center{
-  display: block;
-}
 
 footer{
 	display: block;
