@@ -21,6 +21,7 @@ ul{
 main.intro{
  display: flex;
   flex-flow: row-wrap;
+  vertical-align: middle;
 }
 
 img{
@@ -33,7 +34,6 @@ div.left{
 
 div.right{
   float: right;
-  vertical-align: middle;
 }
 
 div.center{
