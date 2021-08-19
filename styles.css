@@ -27,6 +27,10 @@ div.content{
   margin: auto;
 }
 
+main.intro{
+ display: flex;
+}
+
 main > h2{
   text-align: center;
   font-variant: small-caps;
