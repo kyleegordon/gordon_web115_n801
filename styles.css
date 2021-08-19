@@ -7,7 +7,7 @@ body{
 header{
  background: rgb(114 143 156);
  text-align: center;
- line-height: 2em;
+ line-height: 2;
  font-size: 2em;
   font-variant: small-caps;
 }
