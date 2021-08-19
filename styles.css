@@ -20,9 +20,6 @@ figcaption{
   font-style: italic;
 }
 
-main.intro{
- display: flex;
-}
 
 div.content{
   font-size: 1.5em;
@@ -47,6 +44,7 @@ div.right{
   border-width: 7px;
   width: 50%;
   margin: auto;
+  border-color: rgb(77 79 82);
 }
 
 
