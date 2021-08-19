@@ -22,7 +22,6 @@ figcaption{
 
 main.intro{
  display: flex;
- flex-flow: row-wrap;
 }
 
 div.content{
