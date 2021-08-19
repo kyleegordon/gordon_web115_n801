@@ -58,3 +58,21 @@ footer{
 
 }
 
+a:link{
+  color: rgb(114 143 156);
+  text-decoration: none;
+}
+
+a:visited{
+  color: rgb(105 78 145);
+}
+
+a:hover{
+  color: rgb(114 143 156);
+  text-decoration: underline;
+}
+
+a:active{
+  color: rgb(163 49 156);
+}
+
