@@ -23,7 +23,7 @@ main.intro{
  flex-flow: row-wrap;
 }
 
-main.eva{
+div.content{
   font-size: 1.5em;
   width: 50%;
   margin: auto;
