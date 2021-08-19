@@ -30,7 +30,8 @@ main.eva{
 }
 
 main > h2{
-  text-align: center;	
+  text-align: center;
+  font-variant: small-caps;
 }
 
 div.left{
