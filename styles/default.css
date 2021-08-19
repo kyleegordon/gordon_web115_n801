@@ -1,1 +1,14 @@
+body
+{
+  /* you better change this stuff */
+  margin: 300px;
+  font-family: papyrus, serif;
+  color: red;
+  background-color: green;
+  font-size: 300%;
+}
 
+h6
+{
+  font-family: 'comic sans ms', serif;
+}
