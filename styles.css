@@ -37,12 +37,12 @@ main > h2{
 }
 
 div.left{
-  float: left;
+
   margin: auto;
 }
 
 div.right{
-  float: right;
+
   font-size: 1.5em;
   border-style: double;
   border-width: 7px;
