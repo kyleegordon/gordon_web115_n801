@@ -76,10 +76,10 @@ a:visited{
 }
 
 a:hover{
-  color: #dec4d6;
+  color: white;
   text-decoration: underline;
 }
 
 a:active{
-  color: white;
+  color: #dec4d6;
 }
