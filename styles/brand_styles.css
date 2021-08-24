@@ -20,6 +20,7 @@ header > h1{
 
 ul.colors{
   list-style-type: none;
+  vertical-align: middle;
 }
 
 .dot1 {
