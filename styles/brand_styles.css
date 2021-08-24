@@ -18,6 +18,18 @@ header > h1{
   margin-top: 0;
 }
 
+h1{
+  color: #dec4d6;	
+}
+
+h2{
+   color: #37667e;
+}
+
+p{
+color: #7b92aa;
+}
+
 ul.colors{
   list-style-type: none;
 }
