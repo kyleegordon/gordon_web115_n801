@@ -1,0 +1,4 @@
+
+body{
+  background-image: linear-gradient(to bottom right, #3F677C, #E7E5DF);
+  }
