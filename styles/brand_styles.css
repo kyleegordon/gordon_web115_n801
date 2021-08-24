@@ -18,6 +18,10 @@ header > h1{
   margin-top: 0;
 }
 
+ul.colors{
+  list-style-type: none;
+}
+
 .dot1 {
   height: 25px;
   width: 25px;
