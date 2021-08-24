@@ -4,6 +4,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(to bottom right, #486581, white);
+  font-variant: small-caps;
   }
 
 header{
