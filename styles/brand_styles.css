@@ -3,13 +3,13 @@ body{
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom right, #a4cce3, white);
+  background-image: linear-gradient(to bottom right, #486581, white);
   }
 
 header{
   padding: 0;
   margin-top: 0;
-  background-color: #37667e;
+  background-color: #102a43;
   line-height: 3;
 }
 
@@ -19,7 +19,7 @@ header > h1{
 }
 
 h1{
-  color: #dec4d6;	
+  color: #e1056f;	
 }
 
 h2{
@@ -27,7 +27,7 @@ h2{
 }
 
 p{
-color: #7b92aa;
+color: 	#f0f4f8;
 }
 
 ul.colors{
