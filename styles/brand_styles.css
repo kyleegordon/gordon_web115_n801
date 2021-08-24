@@ -3,13 +3,13 @@ body{
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom right, #97B8B9, #DAEAE8);
+  background-image: linear-gradient(to bottom right, #a4cce3, white);
   }
 
 header{
   padding: 0;
   margin-top: 0;
-  background-color: #3F677C;
+  background-color: 	#37667e;
   line-height: 3;
 }
 
@@ -29,7 +29,7 @@ ul.colors > li{
 .dot1 {
   height: 25px;
   width: 25px;
-  background-color: #3F677C;
+  background-color: #37667e;
   border-radius: 50%;
   display: inline-block;
 }
@@ -37,7 +37,7 @@ ul.colors > li{
 .dot2 {
   height: 25px;
   width: 25px;
-  background-color: #E7E5DF;
+  background-color: #a4cce3;
   border-radius: 50%;
   display: inline-block;
 }
@@ -45,7 +45,7 @@ ul.colors > li{
 .dot3 {
   height: 25px;
   width: 25px;
-  background-color: #ADAFDA;
+  background-color: #dec4d6;
   border-radius: 50%;
   display: inline-block;
 }
@@ -53,7 +53,7 @@ ul.colors > li{
 .dot4 {
   height: 25px;
   width: 25px;
-  background-color: #7D7D7D;
+  background-color: #7b92aa;
   border-radius: 50%;
   display: inline-block;
 }
