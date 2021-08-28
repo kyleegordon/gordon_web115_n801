@@ -38,8 +38,8 @@ li:not(:last-child) {
 }
 
 .dot1 {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   background-color: #dec4d6;
   border-radius: 50%;
   display: inline-block;
