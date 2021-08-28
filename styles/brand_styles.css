@@ -24,12 +24,8 @@ p{
 color: white;
 }
 
-ul.colors{
+ul{
   list-style-type: none;
-}
-
-ul.colors > li{
-  vertical-align: middle;
 }
 
 .dot1 {
