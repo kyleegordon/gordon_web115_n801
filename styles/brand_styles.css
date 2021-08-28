@@ -110,12 +110,12 @@ footer{
 }
 
 a:link{
-  color: #37667e;
+  color: #dec4d6;
   text-decoration: none;
 }
 
 a:visited{
-  color: #37667e;
+  color: #dec4d6;
 }
 
 a:hover{
@@ -124,5 +124,5 @@ a:hover{
 }
 
 a:active{
-  color: #dec4d6;
+  color: white;
 }
