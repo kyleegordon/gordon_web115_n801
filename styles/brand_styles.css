@@ -58,6 +58,7 @@ ul{
   background-color: #0e3245;
   border-radius: 50%;
   display: inline-block;
+  border:1px solid white; 
 }
 
 
