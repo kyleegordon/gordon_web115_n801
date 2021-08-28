@@ -20,17 +20,17 @@ header{
 }
 
 .mission{
-  flex: 1 1 200px;
+  flex: 1 1 30%;
   padding: 20px;
 }
 
 .fonts{
-  flex: 1 1 200px;
+  flex: 1 1 30%;
   padding: 20px;
 }
 
 .colors{
-  flex: 1 1 200px;
+  flex: 1 1 30%;
   padding: 20px;
 }
 h1{
@@ -70,6 +70,7 @@ li:not(:last-child) {
   background-color: #b8e0f6;
   border-radius: 50%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .dot3 {
@@ -78,6 +79,7 @@ li:not(:last-child) {
   background-color: white;
   border-radius: 50%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .dot4 {
@@ -87,6 +89,7 @@ li:not(:last-child) {
   border-radius: 50%;
   display: inline-block;
   border:1px solid white; 
+  vertical-align: middle;
 }
 
 
