@@ -33,7 +33,8 @@ div.content{
 }
 
 div.toc{
-  width: auto;
+  font-size: 1.5em;
+  width: 25%;
   margin: auto;
 	border: 3px solid green;
 }
