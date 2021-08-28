@@ -1,22 +1,13 @@
 
 body{
   margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-image: linear-gradient(to bottom right, #486581, white);
+  background-color: #37667e;
   font-variant: small-caps;
   font-family: sans-serif;
   }
 
 header{
   text-align: center;
-  padding: 0;
-  margin-top: 0;
-  background-color: #102a43;
-  line-height: 3;
-}
-
-header > h1{
   padding: 0;
   margin-top: 0;
 }
