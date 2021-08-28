@@ -12,6 +12,10 @@ header{
   font-variant: small-caps;
 }
 
+main{
+  width: 100%;
+}
+
 ul{
   text-align: left; 
 }
