@@ -33,6 +33,7 @@ div.content{
 }
 
 div.toc{
+  width: auto;
   margin: auto;
 	border: 3px solid green;
 }
