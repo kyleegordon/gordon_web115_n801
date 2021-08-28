@@ -25,16 +25,19 @@ header{
 .mission{
   flex: 1 1 30%;
   padding: 20px;
+  margin: auto;
 }
 
 .fonts{
   flex: 1 1 30%;
   padding: 20px;
+  margin: auto;
 }
 
 .colors{
   flex: 1 1 30%;
   padding: 20px;
+  margin: auto;
 }
 h1{
   color: #dec4d6;
