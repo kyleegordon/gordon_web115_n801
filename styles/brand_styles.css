@@ -5,12 +5,12 @@ body{
   color: white;
   font-variant: small-caps;
   font-family: cursive;
-  font-size: 1em;
+  font-size: 1.5em;
   }
 
 header{
   text-align: center;
-  padding: 0;
+  padding-bottom: 20px;
   margin-top: 0;
 }
 
@@ -35,12 +35,12 @@ header{
 }
 h1{
   color: #dec4d6;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 h2{
    color: #b8e0f6;
-   font-size: 1.5em;
+   font-size: 2em;
 }
 
 p{
