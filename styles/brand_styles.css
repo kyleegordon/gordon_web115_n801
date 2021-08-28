@@ -21,23 +21,12 @@ header{
   justify-content: center;
 }
 
-.mission{
+.item{
   flex: 1 1 30%;
   padding: 20px;
   margin: auto;
 }
 
-.fonts{
-  flex: 1 1 30%;
-  padding: 20px;
-  margin: auto;
-}
-
-.colors{
-  flex: 1 1 30%;
-  padding: 20px;
-  margin: auto;
-}
 h1{
   color: #dec4d6;
   font-size: 2.5em;
