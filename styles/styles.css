@@ -28,6 +28,13 @@ div.content{
   margin: auto;
 }
 
+div.toc{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 main.intro{
  display: flex;
   flex-wrap: wrap;
