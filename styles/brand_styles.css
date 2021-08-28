@@ -98,6 +98,10 @@ footer{
 	margin-right: auto;
 }
 
+q{
+  font-style: italic;
+}
+
 a:link{
   color: #dec4d6;
   text-decoration: none;
