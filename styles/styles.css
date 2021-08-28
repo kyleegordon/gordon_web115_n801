@@ -16,6 +16,10 @@ ul{
   text-align: left; 
 }
 
+div.toc{
+  text-align: center;
+}
+
 figcaption{
   font-style: italic;
 }
