@@ -21,6 +21,7 @@ header{
 .mission{
   flex: 1 1 200px;
   padding: 20px;
+  vertical-align: middle;
 }
 
 .fonts{
