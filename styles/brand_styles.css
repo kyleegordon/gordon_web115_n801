@@ -5,6 +5,7 @@ body{
   color: white;
   font-variant: small-caps;
   font-family: cursive;
+  font-size: 1em;
   }
 
 header{
@@ -34,11 +35,13 @@ header{
   padding: 20px;
 }
 h1{
-  color: #dec4d6;	
+  color: #dec4d6;
+  font-size: 2em;
 }
 
 h2{
    color: #b8e0f6;
+   font-size: 1.5em;
 }
 
 p{
