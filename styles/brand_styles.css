@@ -23,7 +23,7 @@ header{
 
 .item{
   flex: 1 1 30%;
-  padding: 30px;
+  padding: 20px;
   margin: auto;
 }
 
@@ -100,7 +100,7 @@ footer{
 
 q{
   font-style: italic;
-  padding: 30px;
+  padding: 20px;
 }
 
 a:link{
