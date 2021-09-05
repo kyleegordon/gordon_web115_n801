@@ -61,6 +61,24 @@ div.right{
   border-color: rgb(77 79 82);
 }
 
+table, th, td {
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+th{
+  font-size: 1.5em;
+  text-transform: bold;
+}
+
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+td:nth-child(odd), th:nth-child(odd) {
+  background-color: white;
+}
+
 
 footer{
 	display: block;
