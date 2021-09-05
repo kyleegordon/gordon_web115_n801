@@ -83,7 +83,7 @@ td{
 }
 
 td:nth-child(even), th:nth-child(even) {
-  background-color: rgb(152, 132, 179);
+  background-color: rgb(191, 162, 219);
 }
 
 td:nth-child(odd), th:nth-child(odd) {
