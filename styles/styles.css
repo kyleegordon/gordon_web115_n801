@@ -79,7 +79,7 @@ th{
 
 td{
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 td:nth-child(even), th:nth-child(even) {
