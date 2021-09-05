@@ -75,7 +75,7 @@ th, td {
 
 th{
   font-size: 1.5em;
-  text-transform: bold;
+  font-weight: bold;
 }
 
 td:nth-child(even), th:nth-child(even) {
