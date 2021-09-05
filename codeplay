@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+ 
+  <head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Table of Contents</title>
+    <meta name="description" content="Code Play">
+    <meta name="author" content="Kylee Gordon">
+    <link href="/web115/styles/styles.css" rel="stylesheet">
+  </head>
+  
+  <body>
+   <header>
+    <h1>JS Code Play</h1.
+   </header>
+    
+   <main>
+    
+      <table>
+        <tr>
+          <th>Input</th>
+          <th>Output</th>
+        </tr>
+        
+        <tr>
+          <td>6-5</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td9*2</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>x = 4 <br> x++</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>x--</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>x</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>x += 1</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>x++</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>y = 7 <br> y - x</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Math.pow(y, x)</td>
+          <td>117649</td>
+        </tr>
+        <tr>
+          <td>y % x</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Math.min(99, 40, 2, 7, 12)</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Math.max(78, 45, 21, 6, 3)</td>
+          <td>78</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+   </main>
+   
+   <footer>
+       <hr>
+       &#9653;
+      <a href="https://github.com/kyleegordon">GitHub</a> &#9653;
+      <a href="https://kyleegordon.github.io">GitHub IO</a> &#9653;
+      <a href="https://kyleegordon.github.io/web115/">GitHub Course</a> &#9653;
+      <a href="https://www.freecodecamp.org/kyleegordon">FreeCodeCamp</a> &#9653;
+      <a href="https://www.codecademy.com/profiles/kyleegordon">Codecademy</a> &#9653;
+      <a href="https://jsfiddle.net/user/kyleegordon/fiddles/">JSFiddle</a> &#9653;
+      <a href="https://www.linkedin.com/in/kylee-gordon-060612181/">LinkedIn</a> &#9653;
+       <p>Page built by Gordon Designs<p>
+     
+       &#9653;<a href="https://validator.w3.org/nu/?showsource=yes&showimagereport=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fkyleegordon.github.io%2Fweb115%2Findex.html">Validate HTML</a> &#9653;
+       <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkyleegordon.github.io%2Fweb115%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Validate CSS</a> &#9653;
+   </footer>
+  </body>
+ 
+</html>
