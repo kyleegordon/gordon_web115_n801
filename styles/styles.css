@@ -69,7 +69,7 @@ table{
 table, th, td {
   border: 3px solid rgb(74, 71, 77);
   border-collapse: collapse;
-	
+  line-height: 2;
 }
 
 th{
@@ -79,7 +79,6 @@ th{
 
 td{
   font-size: 1.5em;
-  line-height: 2;
 }
 
 td:nth-child(even), th:nth-child(even) {
