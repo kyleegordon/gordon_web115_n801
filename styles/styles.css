@@ -61,6 +61,11 @@ div.right{
   border-color: rgb(77 79 82);
 }
 
+table{
+  width: 80%;
+  margin: 0 auto;
+}
+
 table, th, td {
   border: 2px solid black;
   border-radius: 15px;
