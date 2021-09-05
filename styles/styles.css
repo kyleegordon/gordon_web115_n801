@@ -64,7 +64,6 @@ div.right{
 table{
   width: 80%;
   margin: 0 auto;
-  background-color: white;
 }
 
 table, th, td {
@@ -84,11 +83,11 @@ td{
 }
 
 td:nth-child(even), th:nth-child(even) {
-  color: rgb(61, 28, 92);
+  background-color: rgb(152, 132, 179);
 }
 
 td:nth-child(odd), th:nth-child(odd) {
-  color: rgb(25, 43, 77);
+  background-color: rgb(235, 171, 187);
 }
 
 
