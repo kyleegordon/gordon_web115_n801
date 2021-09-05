@@ -67,15 +67,20 @@ table{
   background-color: white;
 }
 
-th, td {
-  font-size: 1 em;
+table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
+	
 }
 
 th{
   font-size: 1.5em;
   font-weight: bold;
+}
+
+td{
+  font-size: 1 em;
+  text-align: center;
 }
 
 td:nth-child(even), th:nth-child(even) {
