@@ -64,9 +64,7 @@ div.right{
 table{
   width: 80%;
   margin: 0 auto;
-  border: 2px solid black;
-  border-radius: 15px;
- background-color: white;
+  background-color: white;
 }
 
 th, td {
