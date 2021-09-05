@@ -64,11 +64,13 @@ div.right{
 table{
   width: 80%;
   margin: 0 auto;
-   border: 2px solid black;
+  border: 2px solid black;
   border-radius: 15px;
+ background-color: white;
 }
 
-table, th, td {
+th, td {
+  font-size: 1 em;
   border: 2px solid black;
   border-collapse: collapse;
 }
@@ -79,11 +81,11 @@ th{
 }
 
 td:nth-child(even), th:nth-child(even) {
-  background-color: #D6EEEE;
+  color: rgb(61, 28, 92);
 }
 
 td:nth-child(odd), th:nth-child(odd) {
-  background-color: white;
+  color: rgb(25, 43, 77);
 }
 
 
