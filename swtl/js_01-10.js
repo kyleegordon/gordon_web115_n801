@@ -7,10 +7,7 @@ var fullName = firstName + " " + lastName;
 
 var age = prompt("Please enter your age in years: ", 00);
 if (typeof age !== 'number') {
-    while (typeof age !== 'number') {
         age = prompt("Please enter your age in years (numeric): ", 00);
-        alert(typeof age);
-    }
 }
 
 
