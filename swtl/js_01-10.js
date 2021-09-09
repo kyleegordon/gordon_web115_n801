@@ -9,6 +9,7 @@ var age = prompt("Please enter your age in years: ", "Enter age here");
 if (typeof age !== 'number') {
     while (typeof age !== 'number') {
         age = prompt("Please enter your age in years: ", "Enter a number here");
+        alert(typeof age);
     }
 }
 
