@@ -1,8 +1,8 @@
 
 
 alert("Welcome to Kyko Kombucha!");
-var firstName = prompt("Please enter your first name: ", "First Name Here");
-var lastName = prompt("Please enter your last name: ", "Last Name Here");
+var firstName = prompt("Please enter your first name: ", "First Name");
+var lastName = prompt("Please enter your last name: ", "Last Name");
 var fullName = firstName + " " + lastName;
 var age = prompt("Please enter your age in years: ", 00);
 
