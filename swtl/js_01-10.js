@@ -6,7 +6,7 @@ var lastName = prompt("Please enter your last name: ", "Last Name Here");
 var fullName = firstName + " " + lastName;
 
 var age = prompt("Please enter your age in years: ", "Enter age here");
-if (age.typeOf === 'String') {
+if (age.typeof !== 'number') {
     age = prompt("Please enter your age in years: ", "Enter a number here");
 }
 
