@@ -29,17 +29,17 @@
         <label for="middle_initial">Middle Initial: </label><br>
         <input type="text" id="middle_initial" value="Enter your middle initial here" required /><br>
         
-        <input type="submit" id="submit" value="Submit" />
+        <input type="submit" id="submit" onclick="getData()" value="Submit" />
       </form>
       
       <script>
+        function getData() {
+          let firstName = document.querySelector('#first_name').value;
+          let lastName = document.querySelector('#last_name').value;
+          let middleInitial = document.querySelector('#middle_initial').value;
         
-        let firstName = document.querySelector('#first_name').value;
-        let lastName = document.querySelector('#last_name').value;
-        let middleInitial = document.querySelector('#middle_initial').value;
-        
-        document.getElementById("greeting").innerHTML = "Welcome to Ky Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-        
+          document.getElementById("greeting").innerHTML = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
+        }
     </script>
       
       <q>Refresh with flavor and flora</q>
