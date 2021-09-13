@@ -17,7 +17,7 @@
     <main>
       <h2>FizzBuzz 0</h2><br>
       
-      <h3 id="greeting">Welcome to Kyko Kombucha</h3><br>
+      <h3 id="greeting">Welcome to Kyko Kombucha!</h3><br>
       
       <form id="custInfo">
         <label for="first_name">First Name: </label><br>
@@ -33,15 +33,13 @@
       </form>
       
       <script>
-        function getInput() {
-        var x = document.getElementById("custInfo");
-        var text = "";
-        var i;
-        for (i = 0; i < x.length ;i++) {
-        text += x.elements[i].value + "<br>";
-         }
-        document.getElementById("greeting").innerHTML = "Welcome to Kyko Kombucha, " + text;
-        }
+        
+        let firstName = document.querySelector('#first_name').value;
+        let lastName = document.querySelector('#last_name').value;
+        let middleInitial = document.querySelector('#middle_initial').value;
+        
+        document.getElementById("greeting").innerHTML = "Welcome to Ky Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
+        
     </script>
       
       <q>Refresh with flavor and flora</q>
