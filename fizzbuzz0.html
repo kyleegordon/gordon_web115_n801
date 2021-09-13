@@ -7,6 +7,16 @@
     <meta name="description" content="FizzBuzz 0">
     <meta name="author" content="Kylee Gordon">
     <link href="/web115/styles/brand_styles.css" rel="stylesheet">
+    
+    <script>
+        function getData() {
+          let firstName = document.querySelector('#first_name').value;
+          let lastName = document.querySelector('#last_name').value;
+          let middleInitial = document.querySelector('#middle_initial').value;
+        
+          document.getElementById("greeting").innerHTML = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
+        }
+    </script>
   </head>
   
   <body>
@@ -32,15 +42,7 @@
         <input type="submit" id="submit" onclick="getData()" value="Submit" />
       </form>
       
-      <script>
-        function getData() {
-          let firstName = document.querySelector('#first_name').value;
-          let lastName = document.querySelector('#last_name').value;
-          let middleInitial = document.querySelector('#middle_initial').value;
-        
-          document.getElementById("greeting").innerHTML = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-        }
-    </script>
+   
       
       <q>Refresh with flavor and flora</q>
          
