@@ -1,9 +1,10 @@
-#h2{
+h2{
   position: fixed;
   z-index: 10;
   width: 100%;
   text-align: center;
   border: 3px solid white;
+  padding: 20px;
 }
 
 #greeting{
@@ -12,6 +13,7 @@
   width: 100%;
   text-align: center;
   border: 3px solid white;
+  padding: 20px;
 }
 
 #custInfo{
