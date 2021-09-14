@@ -8,15 +8,7 @@
     <meta name="author" content="Kylee Gordon">
     <link href="/web115/styles/brand_styles.css" rel="stylesheet">
     
-    <script>
-        function getData() {
-          let firstName = document.querySelector('#first_name').value;
-          let lastName = document.querySelector('#last_name').value;
-          let middleInitial = document.querySelector('#middle_initial').value;
-        
-          document.getElementById("greeting").innerText = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-        }
-    </script>
+    <script src="/fb_form_submit.js"></script>
   </head>
   
   <body>
@@ -29,7 +21,7 @@
       
       <h3 id="greeting">Welcome to Kyko Kombucha!</h3><br>
       
-      <form id="custInfo" action="#" method="post">
+      <form id="custInfo" action=""/fb_form_submit.js"" method="post">
         <label for="first_name">First Name: </label><br>
         <input type="text" id="first_name" placeholder="Enter your first name here" required /><br>
         
