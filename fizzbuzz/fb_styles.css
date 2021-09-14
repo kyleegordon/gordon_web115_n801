@@ -27,3 +27,7 @@ h2{
 input[type=text]:focus {
   background-color: #dec4d6;
 }
+
+label{
+  display: inline-block;
+}
