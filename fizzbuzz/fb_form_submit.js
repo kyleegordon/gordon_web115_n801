@@ -9,20 +9,19 @@ function getData() {
 }
 
 function bubbleSip() {
-  alert("Buubble");
   for(let i = 0; i < 125; i++) {
 
     //creates new element & stores in variable
     var newEl = document.createElement('li');
     
     //creates text node & stores in variable
-    var newText = document.createTextNode(i + 'Bubble Sip');
+    var newText = document.createTextNode(i + ' Bubble Sip');
     
     //attaches text node to new element
     newEl.appendChild(newText);
     
     //find position where element should be added
-    var position = document.getElementByTagName('ul')[i];
+    var position = document.getElementsByTagName('ul')[i];
     
     //insert new element in correct position
     position.appendChild(newEl);
