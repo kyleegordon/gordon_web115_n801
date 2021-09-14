@@ -1,6 +1,4 @@
 h2{
-  position: fixed;
-  z-index: 10;
   width: 100%;
   text-align: center;
   border: 3px solid white;
@@ -8,8 +6,6 @@ h2{
 }
 
 #greeting{
-  position: fixed;
-  z-index: 10;
   width: 100%;
   text-align: center;
   border: 3px solid white;
