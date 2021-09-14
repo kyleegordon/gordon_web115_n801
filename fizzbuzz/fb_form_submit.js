@@ -10,12 +10,23 @@ function getData() {
 
 function bubbleSip() {
   
-  for(let i = 1; i < 125; i+= 2) {
-    let bubble = "<li>" + i + "Bubble</li>";
-    let sip = "<li>" + (i + 1) + "Sip</li>";
+  for(let i = 0; i < 125; i++) {
+
+    //creates new element & stores in variable
+    var newEl = document.createElement('li');
     
-    document.getElementById("output").innerHTML = bubble;
-    document.getElementById("output").innerHTML = sip;
+    //creates text node & stores in variable
+    var newText = document.createTextNode(i + 'Bubble Sip');
+    
+    //attaches text node to new element
+    newEl.appendChild(newText);
+    
+    //find position where element should be added
+    var position = document.getElementByTagName('ul')[i];
+    
+    //insert new element in correct position
+    position.appendChild(newEl);
+    
   }
   
 }
