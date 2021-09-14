@@ -18,14 +18,14 @@
   position: sticky;
   border: 3px solid white;
   border-radius: 15px;
-  flex: 1 1 30%;
+  width: 30%;
   padding: 20px;
   margin: auto;
   
 }
 
 #output{
-  flex: 1 1 60%;
+  width: 60%;
   padding: 20px;
   margin: auto;
 }
