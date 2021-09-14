@@ -30,4 +30,6 @@ input[type=text]:focus {
 
 label{
   display: inline-block;
+  width: 150px;
+  text-align: right;
 }
