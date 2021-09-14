@@ -1,9 +1,11 @@
 #h2{
+  position: fixed;
   margin: auto;
   border: 3px solid white;
 }
 
 #greeting{
+  position: fixed;
   margin: auto;
   border: 3px solid white;
 }
