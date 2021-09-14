@@ -21,7 +21,7 @@ function bubbleSip() {
     newEl.appendChild(newText);
     
     //find position where element should be added
-    var position = document.getElementsByTagName('ul')[i];
+    var position = document.getElementsByTagName('ul')[0];
     
     //insert new element in correct position
     position.appendChild(newEl);
