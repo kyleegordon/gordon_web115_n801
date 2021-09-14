@@ -5,7 +5,7 @@
   
 }
 #custInfo{
-  border: 3px white solid:
+  border: 3px solid white:
   border-radius: 15;
   padding: 20px;
   
@@ -13,4 +13,8 @@
 
 #output{
   
+}
+
+input[type=text]:focus {
+  background-color: #dec4d6;
 }
