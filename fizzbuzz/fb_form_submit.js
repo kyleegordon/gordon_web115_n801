@@ -9,7 +9,7 @@ function getData() {
 }
 
 function bubbleSip() {
-  
+  alert("Buubble");
   for(let i = 0; i < 125; i++) {
 
     //creates new element & stores in variable
