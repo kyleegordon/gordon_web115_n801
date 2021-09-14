@@ -8,7 +8,15 @@
     <meta name="author" content="Kylee Gordon">
     <link href="/web115/styles/brand_styles.css" rel="stylesheet">
     
-    <script src="/fb_form_submit.js"></script>
+    <script>alert("test");
+
+function getData() {
+  let firstName = document.getElementById('first_name');
+  let lastName = document.getElementById('last_name');
+  let middleInitial = document.getElementById('middle_initial');
+        
+   document.getElementById("greeting").innerText = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
+}</script>
   </head>
   
   <body>
