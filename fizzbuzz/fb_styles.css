@@ -1,9 +1,11 @@
 #h3{
-  text-align: center;
+  margin: auto;
 }
+
 #greeting{
-  
+  margin: auto;
 }
+
 #custInfo{
   border: 3px solid white:
   padding: 20px;
