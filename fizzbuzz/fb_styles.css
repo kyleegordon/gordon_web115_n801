@@ -11,12 +11,16 @@
 #custInfo{
   border: 3px solid white;
   border-radius: 15px;
+  flex: 1 1 30%;
   padding: 20px;
+  margin: auto;
   
 }
 
 #output{
-  
+  flex: 1 1 60%;
+  padding: 20px;
+  margin: auto;
 }
 
 input[type=text]:focus {
