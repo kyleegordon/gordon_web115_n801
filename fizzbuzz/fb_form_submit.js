@@ -1,3 +1,5 @@
+alert("test");
+
 function getData() {
   let firstName = document.getElementById('first_name');
   let lastName = document.getElementById('last_name');
