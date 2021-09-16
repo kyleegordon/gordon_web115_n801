@@ -10,7 +10,7 @@ function getData() {
 }
 
 function bubbleSip(counter) {
-  for(let i = 0; i < counter; i++) {
+  for(let i = 0; i <= counter; i++) {
     var evenOrOdd;
     
     if (i % 2 === 0) {
