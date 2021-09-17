@@ -23,18 +23,26 @@
         <p> Please select the beverages you desire: 
           <br>
           <div>
-            <label for="strawberry"> Strawberry - $4.50</label>
+            <label for="strawberry">Strawberry - $4.50</label>
             <input type="checkbox" name="beverage" id="strawberry" value="4.50" /> 
           </div>
-          <br>
-          <input type="checkbox" name="beverage" id="mango" value="5.00" />  Mango - $5.00
-          <br>
-          <input type="checkbox" name="beverage" id="hibiscus" value="4.50" />  Hibiscus - $4.50
-          <br>
-          <input type="checkbox" name="beverage" id="guava" value="6.00" />  Guava - $6.00
-          <br>
-          <input type="checkbox" name="beverage" id="ginger" value="5.00" />  Ginger - $5.00
-          <br></p>
+          <div>
+            <label for="mango">Mango - $5.00</label>
+            <input type="checkbox" name="beverage" id="mango" value="5.00" />  
+          </div>
+          <div>
+            <label for="hibiscus">Hibiscus - $4.50</label>
+            <input type="checkbox" name="beverage" id="hibiscus" value="4.50" />  
+          </div> 
+          <div>
+            <label for="guava">Guava - $6.00</label>
+            <input type="checkbox" name="beverage" id="guava" value="6.00" />  
+          </div>
+          <div>
+            <label for="ginger">Ginger - $5.00</label>
+            <input type="checkbox" name="beverage" id="ginger" value="5.00" />  
+          </div>
+          </p>
         
         <input type="button" id="submit" onclick="return orderTotal()" value="Place Order" />
       </form>
