@@ -23,7 +23,7 @@ div.checkboxes{
   width: 40%;
   margin: 0 auto;
   overflow: auto;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 /* the .checkboxes -> label, input, and span styles align the checkboxes with their labels */
