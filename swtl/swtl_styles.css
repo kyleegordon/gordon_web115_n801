@@ -13,6 +13,7 @@ h2{
   border-radius: 15px;
   width: 50%;
   margin: auto;
+  font-size: 1rem;
 }
 
 #menu p{
@@ -23,7 +24,6 @@ div.checkboxes{
   width: 50%;
   margin: 0 auto;
   overflow: auto;
-  font-size: 1rem;
 }
 
 /* the .checkboxes -> label, input, and span styles align the checkboxes with their labels */
