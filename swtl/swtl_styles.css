@@ -20,9 +20,10 @@ h2{
 }
 
 div.checkboxes{
-  padding: 0px;
+  width: 40%;
   margin: 0 auto;
-  overflow: suto;
+  overflow: auto;
+  font-size: 1em;
 }
 
 /* the .checkboxes -> label, input, and span styles align the checkboxes with their labels */
