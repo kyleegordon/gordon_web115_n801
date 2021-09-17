@@ -7,7 +7,7 @@ function orderTotal() {
 }
 
 function getSelected() {
-  alert("test");
+  alert("test getSelected");
         //create array to hold selections
         let selected = new Array();
  
