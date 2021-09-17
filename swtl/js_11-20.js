@@ -31,7 +31,7 @@ function getSelected() {
 }
 
 function addTotal(selectedPrices) {
-  alert("test Total");
+
   let sum = 0;
   
   // adds each price to sum
