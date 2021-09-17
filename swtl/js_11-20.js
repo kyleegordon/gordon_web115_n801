@@ -2,12 +2,12 @@
 
 
 function orderTotal() {
-  alert("test");
   let total = addTotal(getSelected());
   document.getElementById("displayTotal").textContent = "Your total for this order is:  " + total;
 }
 
 function getSelected() {
+  alert("test");
         //create array to hold selections
         let selected = new Array();
  
