@@ -19,15 +19,13 @@ h2{
   text-align: center;
 }
 
-div.checkboxes{
-  width: 50%;
-  margin: 0 auto;
-  overflow: auto;
-}
 
 /* the .checkboxes -> input, and label span styles align the checkboxes with their labels */
 .checkboxes {
  display: inline-block; 
+ width: 50%;
+ margin: 0 auto;
+ overflow: auto;
  padding-right: 10px;
  white-space: nowrap;
 }
