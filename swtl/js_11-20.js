@@ -1,5 +1,7 @@
-function orderTotal() {
   alert("test");
+
+
+function orderTotal() {
   let total = addTotal(getSelected());
   document.getElementById("displayTotal").textContent = "Your total for this order is:  " + total;
 }
