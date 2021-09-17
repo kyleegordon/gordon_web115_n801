@@ -16,22 +16,17 @@ h2{
   margin: auto;
 }
 
-input[type=text]:focus {
-  background-color: #dec4d6;
-}
-
-input{
-  width: 100%;
-}
-
 .checkboxes label{
  display: inline-block; 
  padding-right: 10px;
  white-space: nowrap;
- vertical-align: middle;
 }
 
 .checkboxes input {
+  vertical-align: middle;
+}
+
+.checkboxes label span {
   vertical-align: middle;
 }
 
