@@ -21,7 +21,7 @@ h2{
 }
 
 .checkboxes{
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* the .checkboxes -> label, input, and span styles align the checkboxes with their labels */
