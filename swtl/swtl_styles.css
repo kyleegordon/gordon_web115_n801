@@ -16,6 +16,10 @@ h2{
   margin: auto;
 }
 
+.menu p{
+  text-align: center;
+}
+
 .checkboxes{
   margin: auto;
 }
