@@ -34,7 +34,7 @@ function addTotal(selectedPrices) {
 
   let sum = 0;
   
-  // adds each price to sum
+  // adds each selected beverage price to sum
   for (var i = 0; i < selectedPrices.length; i++) {
     sum += parseFloat(selectedPrices[i]); 
   }
