@@ -43,6 +43,7 @@ div.checkboxes{
 #submit{
   width: 30%;
   display: block;
-  margin: 20px auto;
-  padding: 3px;
+  margin: 25px auto;
+  padding: 5px;
+  border-radius: 15px;
 }
