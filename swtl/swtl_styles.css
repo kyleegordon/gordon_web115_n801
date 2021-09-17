@@ -15,6 +15,9 @@ h2{
   margin: auto;
 }
 
+#menu p{
+  text-align: center;
+}
 
 div.checkboxes{
   width: 50%;
