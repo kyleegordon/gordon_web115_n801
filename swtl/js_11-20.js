@@ -34,5 +34,5 @@ function addTotal(selectedPrices) {
     sum += selectedPrices[i]; 
   }
   
-  return total;
+  return sum;
 }
