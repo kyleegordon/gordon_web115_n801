@@ -23,7 +23,6 @@ h2{
 
 /* the .checkboxes -> input, and label span styles align the checkboxes with their labels */
 .checkboxes {
-  border: 3px solid white;
   display: inline-block; 
   margin: auto;
   padding: 0px 10px;
