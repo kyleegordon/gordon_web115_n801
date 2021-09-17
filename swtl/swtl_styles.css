@@ -9,7 +9,6 @@ h2{
 }
 
 #menu{
-  display: inline-block;
   border: 3px solid white;
   border-radius: 15px;
   width: 50%;
@@ -22,7 +21,12 @@ input[type=text]:focus {
 }
 
 input{
+  display: inline-block;
   width: 100%;
+}
+
+label{
+  display: inline-block;
 }
 
 #submit{
