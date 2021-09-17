@@ -2,12 +2,14 @@
 
 
 function orderTotal() {
+  
   let total = addTotal(getSelected());
   document.getElementById("displayTotal").textContent = "Your total for this order is:  " + total;
+  
 }
 
 function getSelected() {
-  alert("test getSelected");
+  
         //create array to hold selections
         let selected = new Array();
  
@@ -23,10 +25,13 @@ function getSelected() {
                 selected.push(checks[i].value);
             }
         }
+  
   return selected;
+  
 }
 
 function addTotal(selectedPrices) {
+  alert("test attTotal");
   let sum = 0;
   
   // adds each price to sum
@@ -35,4 +40,5 @@ function addTotal(selectedPrices) {
   }
   
   return sum;
+  
 }
