@@ -31,13 +31,11 @@ header{
 h1{
   color: #dec4d6;
   font-size: 2.5em;
-  font-variant: small-caps;
 }
 
 h2{
    color: #b8e0f6;
    font-size: 1.75em;
-   font-variant: small-caps;
 }
 
 p{
@@ -93,7 +91,6 @@ li:not(:last-child) {
 
 footer{
 	display: block;
-	font-variant: small-caps;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
