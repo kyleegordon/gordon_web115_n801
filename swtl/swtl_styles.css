@@ -21,6 +21,7 @@ h2{
 }
 
 div.checkboxes{
+  border: 3px solid white;
   margin: 0 auto;
 }
 
