@@ -16,6 +16,7 @@ h2{
   margin: auto;
 }
 
+/* the .checkboxes styles align the checkboxes with their labels */
 .checkboxes label{
  display: inline-block; 
  padding-right: 10px;
