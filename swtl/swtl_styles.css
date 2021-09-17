@@ -23,10 +23,9 @@ h2{
 /* the .checkboxes -> input, and label span styles align the checkboxes with their labels */
 .checkboxes {
  display: inline-block; 
- padding-right: 10px;
+ white-space: nowrap;
  margin: 0 auto;
  overflow: auto;
- white-space: nowrap;
 }
 
 .checkboxes input {
