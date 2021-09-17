@@ -25,9 +25,10 @@ div.checkboxes{
   overflow: auto;
 }
 
-/* the .checkboxes -> label, input, and span styles align the checkboxes with their labels */
-.checkboxes label{
+/* the .checkboxes -> input, and label span styles align the checkboxes with their labels */
+.checkboxes {
  display: inline-block; 
+  wrap: no-wrap;
  padding-right: 10px;
  white-space: nowrap;
 }
