@@ -25,7 +25,7 @@ h2{
 .checkboxes {
   display: inline-block; 
   margin: auto;
-  padding: 0px 10px;
+  padding: 0% 30%;
  white-space: nowrap;
 }
 
