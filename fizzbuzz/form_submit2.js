@@ -2,20 +2,30 @@ function getData() {
   let firstName = document.getElementById('first_name').value;
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
+  let firstDivisor = 4;
+  let secondDivisor = 7;
         
    document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-  bubbleSip();
+  bubbleSip(firstDivisor, secondDivisor);
 }
 
-function bubbleSip() {
+function isDivisible(num1, num2) {
+  if (num1 % num2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function bubbleSip(firstDivisor, secondDivisor) {
   for (let i = 1; i <= 140; i++) {
     var word = '';
     
-    if (i % 3 === 0) {
+    if (isDivisible(i, firstDivisor)) {
       word = word.concat('Sip');
     } 
     
-    if (i % 5 === 0) {
+    if (isDivisible(i, secondDivisor)) {
       word = word.concat('SLURP!');
     }
     
