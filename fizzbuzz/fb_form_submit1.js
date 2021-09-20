@@ -8,7 +8,7 @@ function getData() {
 }
 
 function bubbleSip() {
-  for (let i = 0; i <= 140; i++) {
+  for (let i = 1; i <= 140; i++) {
     var word = '';
     
     if (i % 3 === 0) {
