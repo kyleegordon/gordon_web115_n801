@@ -4,25 +4,32 @@ function getData() {
   let middleInitial = document.getElementById('middle_initial').value;
         
    document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-  let howHigh = prompt(`How high do you want to count, ${firstName}?`);
-  bubbleSip(howHigh);
+  bubbleSip();
 }
 
-function bubbleSip(counter) {
-  for(let i = 0; i <= counter; i++) {
-    var evenOrOdd;
+function bubbleSip() {
+  for (let i = 0; i <= 140; i++) {
+    var word = '';
     
-    if (i % 2 === 0) {
-      evenOrOdd = 'the number is even';
-    } else {
-      evenOrOdd = 'the number is odd';
+    if (i % 3 === 0) {
+      word = word.concat('Sip');
+    } 
+    
+    if (i % 5 === 0) {
+      word = word.concat('SLURP!');
     }
+    
+    if (word === '') {
+      word = 'Bubble';
+    }
+      
+      
     
     //creates new element & stores in variable
     var newEl = document.createElement('li');
     
     //creates text node & stores in variable
-    var newText = document.createTextNode(i + ' Bubble Sip - ' + evenOrOdd);
+    var newText = document.createTextNode(i + ' Bubble Sip - ' + word);
     
     //attaches text node to new element
     newEl.appendChild(newText);
