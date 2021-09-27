@@ -2,12 +2,20 @@ function getData() {
   let firstName = document.getElementById('first_name').value;
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
-  let firstDivisor = 3;
-  let secondDivisor = 5;
-  let thirdDivisor = 7;
+  
+  let firstDivisor = document.getElementById('first_number').value;
+  let secondDivisor = document.getElementById('second_number').value;
+  let thirdDivisor = document.getElementById('third_number').value;
+  
+  let firstWord = document.getElementById('first_word').value;
+  let secondWord = document.getElementById('second_word').value;
+  let thirdWord = document.getElementById('third_word').value;
+  
+  let totalLines = document.getElementById('totalLines').value;
+  
         
    document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-  bubbleSip(firstDivisor, secondDivisor, thirdDivisor);
+  bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord, totalLines);
 }
 
 function isDivisible(num1, num2) {
@@ -18,20 +26,20 @@ function isDivisible(num1, num2) {
   }
 }
 
-function bubbleSip(firstDivisor, secondDivisor, thirdDivisor) {
-  for (let i = 1; i <= 140; i++) {
+function bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord, totalLines) {
+  for (let i = 1; i <= totalLines; i++) {
     var word = '';
     
     if (isDivisible(i, firstDivisor)) {
-      word = word.concat('Sip');
+      word = word.concat(firstWord);
     } 
     
     if (isDivisible(i, secondDivisor)) {
-      word = word.concat('SLURP');
+      word = word.concat(secondWord);
     }
     
     if (isDivisible(i, thirdDivisor)) {
-      word = word.concat('SPLASH!');
+      word = word.concat('thirdWord');
     }
     
     if (word === '') {
