@@ -11,7 +11,7 @@ function getData() {
   let secondWord = document.getElementById('second_word').value;
   let thirdWord = document.getElementById('third_word').value;
   
-  let totalLines = document.getElementById('totalLines').value;
+  let totalLines = document.getElementById('total_lines').value;
   
         
    document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
