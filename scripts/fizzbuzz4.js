@@ -39,7 +39,7 @@ function bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondW
     }
     
     if (isDivisible(i, thirdDivisor)) {
-      word = word.concat('thirdWord');
+      word = word.concat(thirdWord);
     }
     
     if (word === '') {
