@@ -23,7 +23,7 @@ function bubbleSip(counter) {
     var newEl = document.createElement('li');
     
     //creates text node & stores in variable
-    var newText = document.createTextNode(i + ' Bubble Sip - ' + evenOrOdd);
+    var newText = document.createTextNode(i + '- Bubble Sip - ' + evenOrOdd);
     
     //attaches text node to new element
     newEl.appendChild(newText);
