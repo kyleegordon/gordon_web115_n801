@@ -22,7 +22,9 @@ input[type=text]:focus {
   background-color: #dec4d6;
 }
 
-
+input {
+  width: 100%;
+}
 
 #submit{
   width: 30%;
