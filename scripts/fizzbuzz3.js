@@ -6,7 +6,12 @@ function getData() {
   let secondDivisor = 5;
   let thirdDivisor = 7;
         
-   document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
+  if (middleInitial) {
+     document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
+   } else {
+     document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + lastName + "!";
+   }
+  
   bubbleSip(firstDivisor, secondDivisor, thirdDivisor);
 }
 
