@@ -11,7 +11,7 @@ h2{
 #custInfo{
   border: 3px solid white;
   border-radius: 15px;
-  width: 30%;
+  width: 20%;
   padding: 20px;
   margin: auto;
   
@@ -24,7 +24,7 @@ input[type=text]:focus {
 
 
 #submit{
-  width: 20%;
+  width: 30%;
   display: block;
   margin: 0 auto;
   padding: 3px;
