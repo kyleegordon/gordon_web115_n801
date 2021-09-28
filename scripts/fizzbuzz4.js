@@ -13,7 +13,7 @@ function getData() {
   
   let totalLines = document.getElementById('total_lines').value;
   
-   if (middleInitial = undefined) {
+   if (middleInitial === undefined) {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + lastName + "!";
    } else {
    document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
