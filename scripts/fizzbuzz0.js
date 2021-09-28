@@ -4,7 +4,12 @@ function getData() {
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
         
-   document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
+  if (middleInitial) {
+     document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
+   } else {
+     document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + lastName + "!";
+   }
+  
   let howHigh = prompt(`How high do you want to count, ${firstName}?`);
   bubbleSip(howHigh);
 }
