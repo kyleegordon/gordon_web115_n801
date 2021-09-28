@@ -17,11 +17,6 @@ h2{
   
 }
 
-#output{
-  width: 100%;
-  padding: 20px;
-  margin: auto;
-}
 
 input[type=text]:focus {
   background-color: #dec4d6;
@@ -41,7 +36,6 @@ input{
 #fizzbuzz_text {
   margin: auto;
   width: 33%;
-  border: 3px solid white;
   padding: 10px;
   text-align: justify;
 }
