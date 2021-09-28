@@ -4,7 +4,7 @@ body{
   background-color: #0e3245;
   color: #F9F6EE;
   font-family: 'Sriracha', cursive;
-  font-size: 1.5em;
+  font-size: 1em;
   letter-spacing: 0.2em;
   }
 
@@ -91,7 +91,7 @@ li:not(:last-child) {
 
 footer{
 	display: block;
-	font-size: 1em;
+	font-size: 0.75em;
 	font-variant: small-caps;
 	text-align: center;
 	margin-left: auto;
