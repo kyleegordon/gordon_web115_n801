@@ -72,7 +72,7 @@ li:not(:last-child) {
 .dot3 {
   height: 50px;
   width: 50px;
-  background-color: white;
+  background-color: #F9F6EE;
   border-radius: 50%;
   display: inline-block;
   vertical-align: middle;
