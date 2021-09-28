@@ -35,5 +35,5 @@ input[type=text]:focus {
   width: 26%;
   padding: 10px;
   text-align: justify;
-  line-height: 80%;
+  line-height: 0.5em;
 }
