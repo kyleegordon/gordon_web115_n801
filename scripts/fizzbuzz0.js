@@ -25,19 +25,19 @@ function bubbleSip(counter) {
     }
     
     //creates new element & stores in variable
-    var newEl = document.createElement('li');
+    var newListItem = document.createElement('li');
     
     //creates text node & stores in variable
     var newText = document.createTextNode(i + '- Bubble Sip - ' + evenOrOdd);
     
     //attaches text node to new element
-    newEl.appendChild(newText);
+    newListItem.appendChild(newText);
     
     //find position where element should be added
     var position = document.getElementsByTagName('ul')[0];
     
     //insert new element in correct position
-    position.appendChild(newEl);
+    position.appendChild(newListItem);
     
   }
   
