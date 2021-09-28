@@ -52,7 +52,7 @@ function bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondW
     var newEl = document.createElement('li');
     
     //creates text node & stores in variable
-    var newText = document.createTextNode(i + " " + word);
+    var newText = document.createTextNode(i + "- " + word);
     
     //attaches text node to new element
     newEl.appendChild(newText);
