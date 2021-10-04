@@ -1,4 +1,4 @@
-
+/* Default Brand Styles */
 
 body{
   margin: 0;
@@ -124,7 +124,7 @@ a:active{
 }
   
 
-//FizzBuzz Styles
+/* FizzBuzz Styles */
 
 
 #custInfo{
@@ -157,7 +157,7 @@ input[type=text]:focus {
   line-height: 0.5em;
 }
 
-//Demonstrate SWTL JS Styles
+/* Demonstrate SWTL JS Styles */
 
 #displayTotal{
   width: 100%;
