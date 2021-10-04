@@ -1,4 +1,4 @@
-// Default Brand Styles
+
 
 body{
   margin: 0;
@@ -126,10 +126,6 @@ a:active{
 
 //FizzBuzz Styles
 
-#greeting{
-  width: 100%;
-  text-align: center;
-}
 
 #custInfo{
   border: 3px solid white;
