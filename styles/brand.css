@@ -1,3 +1,4 @@
+// Default Brand Styles:
 
 body{
   margin: 0;
@@ -116,3 +117,97 @@ a:hover{
 a:active{
   color: white;
 }
+
+.center{
+  width: 100%;
+  text-align: center;
+}
+  
+
+//FizzBuzz Styles:
+
+#greeting{
+  width: 100%;
+  text-align: center;
+}
+
+#custInfo{
+  border: 3px solid white;
+  border-radius: 15px;
+  width: 24%;
+  padding: 20px;
+  margin: auto;
+  
+}
+
+
+input[type=text]:focus {
+  background-color: #dec4d6;
+}
+
+
+#submit{
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  padding: 3px;
+}
+
+#fizzbuzz_text {
+  margin: auto;
+  width: 28%;
+  padding: 10px;
+  text-align: justify;
+  line-height: 0.5em;
+}
+
+//Demonstrate SWTL JS Styles:
+
+#displayTotal{
+  width: 100%;
+  text-align: center;
+}
+
+#menu{
+  border: 3px solid white;
+  border-radius: 15px;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#menu p{
+  text-align: center;
+}
+
+
+/* the .checkboxes -> input, and label span styles align the checkboxes with their labels */
+.checkboxes {
+  display: inline-block; 
+  white-space: nowrap;
+  padding: 0% 30%;
+}
+
+.checkboxes input {
+  vertical-align: middle;
+}
+
+.checkboxes label span {
+  vertical-align: middle;
+}
+
+#submit{
+  width: 30%;
+  display: block;
+  margin: 25px auto;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+
+
