@@ -131,7 +131,7 @@ a:active{
   border: 3px solid white;
   border-radius: 15px;
   width: 28%;
-  padding: 0px 20px;
+  padding: 0px 40px;
   margin: 0 auto;
 }
 
@@ -147,7 +147,7 @@ input[type=text]:focus {
   margin: 0 auto;
   padding: 3px;
 }
-
+/*
 #fizzbuzz_text {
   margin: auto;
   width: 80%;
@@ -155,8 +155,13 @@ input[type=text]:focus {
   text-align: justify;
   line-height: 0.8em;
 }
-
+*/
 #output {
+  margin: auto;
+  width: 80%;
+  padding: 5px;
+  text-align: justify;
+  line-height: 0.8em;
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
