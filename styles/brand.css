@@ -157,14 +157,14 @@ input[type=text]:focus {
   line-height: 0.5em;
 }
 
-.output {
+#output {
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
   height: 30%;
 }
 
-.output > li {
+#output > li {
   flex: 1 0 25%;
 }
 
