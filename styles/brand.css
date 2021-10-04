@@ -158,15 +158,12 @@ input[type=text]:focus {
 }
 
 #output {
-  flex-direction: column;
-  flex-wrap: wrap;
-  display: flex;
-  height: 30%;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
 }
 
-#output > li {
-  flex: 1 0 25%;
-}
+
 
 /* Demonstrate SWTL JS Styles */
 
