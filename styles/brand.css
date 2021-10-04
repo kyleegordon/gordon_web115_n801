@@ -157,6 +157,17 @@ input[type=text]:focus {
   line-height: 0.5em;
 }
 
+.output {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 30%;
+}
+
+.output > li {
+  flex: 1 0 25%;
+}
+
 /* Demonstrate SWTL JS Styles */
 
 #displayTotal{
