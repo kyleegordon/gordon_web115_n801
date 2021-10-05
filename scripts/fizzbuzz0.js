@@ -1,12 +1,15 @@
 
-function getData() {
+function getData() 
+{
   let firstName = document.getElementById('first_name').value;
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
         
-  if (middleInitial) {
+  if (middleInitial) 
+  {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-   } else {
+  } else 
+   {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + lastName + "!";
    }
   
@@ -14,15 +17,19 @@ function getData() {
   bubbleSip(howHigh);
 }
 
-function bubbleSip(counter) {
-  for(let i = 0; i <= counter; i++) {
+function bubbleSip(counter) 
+{
+  for(let i = 0; i <= counter; i++) 
+  {
     var evenOrOdd;
     
-    if (i % 2 === 0) {
+    if (i % 2 === 0) 
+    {
       evenOrOdd = 'the number is even';
-    } else {
+    } else 
+     {
       evenOrOdd = 'the number is odd';
-    }
+     }
     
     //creates new element & stores in variable
     var newListItem = document.createElement('li');
@@ -38,7 +45,5 @@ function bubbleSip(counter) {
     
     //insert new element in correct position
     position.appendChild(newListItem);
-    
-  }
-  
+  }  
 }
