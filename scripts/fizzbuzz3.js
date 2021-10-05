@@ -1,4 +1,5 @@
-function getData() {
+function getData() 
+{
   let firstName = document.getElementById('first_name').value;
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
@@ -6,44 +7,53 @@ function getData() {
   let secondDivisor = 5;
   let thirdDivisor = 7;
         
-  if (middleInitial) {
+  if (middleInitial) 
+  {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-   } else {
+  } else 
+    {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + lastName + "!";
-   }
+    }
   
   bubbleSip(firstDivisor, secondDivisor, thirdDivisor);
 }
 
-function isDivisible(number1, number2) {
-  if (number1 % number2 === 0) {
+function isDivisible(number1, number2) 
+{
+  if (number1 % number2 === 0) 
+  {
     return true;
-  } else {
+  } else 
+   {
     return false;
-  }
+   }
 }
 
-function bubbleSip(firstDivisor, secondDivisor, thirdDivisor) {
-  for (let i = 1; i <= 140; i++) {
+function bubbleSip(firstDivisor, secondDivisor, thirdDivisor) 
+{
+  for (let i = 1; i <= 140; i++) 
+  {
     var word = '';
     
-    if (isDivisible(i, firstDivisor)) {
+    if (isDivisible(i, firstDivisor)) 
+    {
       word = word.concat('Sip');
     } 
     
-    if (isDivisible(i, secondDivisor)) {
+    if (isDivisible(i, secondDivisor)) 
+    {
       word = word.concat('SLURP');
     }
     
-    if (isDivisible(i, thirdDivisor)) {
+    if (isDivisible(i, thirdDivisor)) 
+    {
       word = word.concat('SPLASH!');
     }
     
-    if (word === '') {
+    if (word === '') 
+    {
       word = 'Bubble';
-    }
-      
-      
+    }  
     
     //creates new element & stores in variable
     var newListItem = document.createElement('li');
@@ -61,5 +71,4 @@ function bubbleSip(firstDivisor, secondDivisor, thirdDivisor) {
     position.appendChild(newListItem);
     
   }
-  
 }
