@@ -1,10 +1,12 @@
-body{
+body
+{
   font-family: sans-serif;
   margin: auto;
   background: rgb(213 226 232);
 }
 
-header{
+header
+{
  background: rgb(114 143 156);
  text-align: center;
  line-height: 2;
@@ -12,47 +14,55 @@ header{
   font-variant: small-caps;
 }
 
-main{
+main
+{
   width: 100%;
 }
 
-ul{
+ul
+{
   text-align: left; 
 }
 
-
-figcaption{
+figcaption
+{
   font-style: italic;
 }
 
 
-div.content{
+div.content
+{
   font-size: 1.5em;
   width: 50%;
   margin: auto;
 }
 
-div.toc{
+div.toc
+{
   font-size: 2em;
   width: 25%;
   margin: auto;
 }
 
-main.intro{
+main.intro
+{
  display: flex;
   flex-wrap: wrap;
 }
 
-main > h2{
+main > h2
+{
   text-align: center;
   font-variant: small-caps;
 }
 
-div.left{
+div.left
+{
   margin: auto;
 }
 
-div.right{
+div.right
+{
   font-size: 1.5em;
   border-style: double;
   border-width: 7px;
@@ -61,36 +71,42 @@ div.right{
   border-color: rgb(77 79 82);
 }
 
-table{
+table
+{
   width: 80%;
   margin: 0 auto;
 }
 
-table, th, td {
+table, th, td 
+{
   border: 3px solid rgb(74, 71, 77);
   border-collapse: collapse;
   line-height: 2;
 }
 
-th{
+th
+{
   font-size: 2em;
   font-weight: bold;
 }
 
-td{
+td
+{
   font-size: 1.5em;
 }
 
-td:nth-child(even), th:nth-child(even) {
+td:nth-child(even), th:nth-child(even) 
+{
   background-color: rgb(191, 162, 219);
 }
 
-td:nth-child(odd), th:nth-child(odd) {
+td:nth-child(odd), th:nth-child(odd) 
+{
   background-color: rgb(235, 171, 187);
 }
 
-
-footer{
+footer
+{
 	display: block;
 	font-variant: small-caps;
 	text-align: center;
@@ -98,21 +114,25 @@ footer{
 	margin-right: auto;
 }
 
-a:link{
+a:link
+{
   color: rgb(114 143 156);
   text-decoration: none;
 }
 
-a:visited{
+a:visited
+{
   color: rgb(114 143 156);
 }
 
-a:hover{
+a:hover
+{
   color: rgb(114 143 156);
   text-decoration: underline;
 }
 
-a:active{
+a:active
+{
   color: rgb(163 49 156);
 }
 
