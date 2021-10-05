@@ -1,58 +1,68 @@
 /* Default Brand Styles */
 
-body{
+body
+{
   margin: 0;
   background-color: #0e3245;
   color: #F9F6EE;
   font-family: 'Sriracha', cursive;
   font-size: 1.2em;
   letter-spacing: 0.2em;
-  }
+}
 
-header{
+header
+{
   width: 100%;
   text-align: center;
   margin-top: 0;
   line-height: 0.5;
 }
 
-.container{
+.container
+{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.item{
+.item
+{
   flex: 1 1 30%;
   padding: 20px;
   margin: auto;
 }
 
-h1{
+h1
+{
   color: #dec4d6;
   font-size: 2.5em;
 }
 
-h2{
+h2
+{
    color: #b8e0f6;
    font-size: 1.75em;
 }
 
-p{
+p
+{
 color: white;
 text-indent: 2em;
 }
 
-ul{
+ul
+{
   list-style-type: none;
 }
 
-li:not(:last-child) {
+li:not(:last-child) 
+{
     margin-bottom: 25px;
 }
 
-.dot1 {
+.dot1 
+{
   height: 50px;
   width: 50px;
   background-color: #dec4d6;
@@ -61,7 +71,8 @@ li:not(:last-child) {
   vertical-align: middle;
 }
 
-.dot2 {
+.dot2 
+{
   height: 50px;
   width: 50px;
   background-color: #b8e0f6;
@@ -70,7 +81,8 @@ li:not(:last-child) {
   vertical-align: middle;
 }
 
-.dot3 {
+.dot3 
+{
   height: 50px;
   width: 50px;
   background-color: #F9F6EE;
@@ -79,7 +91,8 @@ li:not(:last-child) {
   vertical-align: middle;
 }
 
-.dot4 {
+.dot4 
+{
   height: 50px;
   width: 50px;
   background-color: #0e3245;
@@ -89,8 +102,8 @@ li:not(:last-child) {
   vertical-align: middle;
 }
 
-
-footer{
+footer
+{
 	display: block;
 	font-size: 0.9em;
 	font-variant: small-caps;
@@ -99,26 +112,30 @@ footer{
 	margin-right: auto;
 }
 
-
-a:link{
+a:link
+{
   color: #dec4d6;
   text-decoration: none;
 }
 
-a:visited{
+a:visited
+{
   color: #dec4d6;
 }
 
-a:hover{
+a:hover
+{
   color: white;
   text-decoration: underline;
 }
 
-a:active{
+a:active
+{
   color: white;
 }
 
-.center{
+.center
+{
   width: 100%;
   text-align: center;
 }
@@ -127,7 +144,8 @@ a:active{
 /* FizzBuzz Styles */
 
 
-#custInfo{
+#custInfo
+{
   border: 3px solid white;
   border-radius: 15px;
   width: 24%;
@@ -136,19 +154,22 @@ a:active{
 }
 
 
-input[type=text]:focus {
+input[type=text]:focus 
+{
   background-color: #dec4d6;
 }
 
 
-#submit{
+#submit
+{
   width: 30%;
   display: block;
   margin: 0 auto;
   padding: 3px;
 }
 
-#output {
+#output 
+{
   margin: auto;
   width: 80%;
   padding: 5px;
@@ -163,12 +184,15 @@ input[type=text]:focus {
 
 /* Demonstrate SWTL JS Styles */
 
-#displayTotal{
+
+#displayTotal
+{
   width: 100%;
   text-align: center;
 }
 
-#menu{
+#menu
+{
   border: 3px solid white;
   border-radius: 15px;
   width: 50%;
@@ -176,38 +200,37 @@ input[type=text]:focus {
   overflow: hidden;
 }
 
-#menu p{
+#menu p
+{
   text-align: center;
 }
 
 
 /* the .checkboxes -> input, and label span styles align the checkboxes with their labels */
-.checkboxes {
+.checkboxes 
+{
   display: inline-block; 
   white-space: nowrap;
   padding: 0% 30%;
 }
 
-.checkboxes input {
+.checkboxes input 
+{
   vertical-align: middle;
 }
 
-.checkboxes label span {
+.checkboxes label span 
+{
   vertical-align: middle;
 }
 
-#submit{
+#submit
+{
   width: 30%;
   display: block;
   margin: 25px auto;
   padding: 5px;
   border-radius: 15px;
 }
-
-
-
-
-
-
 
 
