@@ -1,4 +1,5 @@
-function getData() {
+function getData() 
+{
   let firstName = document.getElementById('first_name').value;
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
@@ -13,44 +14,53 @@ function getData() {
   
   let totalLines = document.getElementById('total_lines').value;
   
-  if (middleInitial) {
+  if (middleInitial) 
+  {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-   } else {
+  } else 
+   {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + lastName + "!";
    }
   
   bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord, totalLines);
 }
 
-function isDivisible(number1, number2) {
-  if (number1 % number2 === 0) {
+function isDivisible(number1, number2) 
+{
+  if (number1 % number2 === 0) 
+  {
     return true;
-  } else {
+  } else 
+   {
     return false;
-  }
+   }
 }
 
-function bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord, totalLines) {
-  for (let i = 1; i <= totalLines; i++) {
+function bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord, totalLines) 
+{
+  for (let i = 1; i <= totalLines; i++) 
+  {
     var word = '';
     
-    if (isDivisible(i, firstDivisor)) {
+    if (isDivisible(i, firstDivisor)) 
+    {
       word = word.concat(firstWord);
     } 
     
-    if (isDivisible(i, secondDivisor)) {
+    if (isDivisible(i, secondDivisor)) 
+    {
       word = word.concat(secondWord);
     }
     
-    if (isDivisible(i, thirdDivisor)) {
+    if (isDivisible(i, thirdDivisor)) 
+    {
       word = word.concat(thirdWord);
     }
     
-    if (word === '') {
+    if (word === '') 
+    {
       word = 'Bubble';
     }
-      
-      
     
     //creates new element & stores in variable
     var newListItem = document.createElement('li');
@@ -68,5 +78,4 @@ function bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondW
     position.appendChild(newListItem);
     
   }
-  
 }
