@@ -1,30 +1,38 @@
-function getData() {
+function getData() 
+{
   let firstName = document.getElementById('first_name').value;
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
         
-  if (middleInitial) {
+  if (middleInitial) 
+  {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-   } else {
+  } else 
+   {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + lastName + "!";
    }
   
   bubbleSip();
 }
 
-function bubbleSip() {
-  for (let i = 1; i <= 140; i++) {
+function bubbleSip() 
+{
+  for (let i = 1; i <= 140; i++) 
+  {
     var word = '';
     
-    if (i % 3 === 0) {
+    if (i % 3 === 0) 
+    {
       word = word.concat('Sip');
     } 
     
-    if (i % 5 === 0) {
+    if (i % 5 === 0) 
+    {
       word = word.concat('SLURP!');
     }
     
-    if (word === '') {
+    if (word === '') 
+    {
       word = 'Bubble';
     }
       
@@ -44,7 +52,5 @@ function bubbleSip() {
     
     //insert new element in correct position
     position.appendChild(newListItem);
-    
   }
-  
 }
