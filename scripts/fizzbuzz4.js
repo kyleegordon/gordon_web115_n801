@@ -1,18 +1,18 @@
 function getData() 
 {
-  let firstName = document.getElementById('first_name').value;
-  let lastName = document.getElementById('last_name').value;
-  let middleInitial = document.getElementById('middle_initial').value;
+  var firstName = document.getElementById('first_name').value;
+  var lastName = document.getElementById('last_name').value;
+  var middleInitial = document.getElementById('middle_initial').value;
   
-  let firstDivisor = document.getElementById('first_number').value;
-  let secondDivisor = document.getElementById('second_number').value;
-  let thirdDivisor = document.getElementById('third_number').value;
+  var firstDivisor = document.getElementById('first_number').value;
+  var secondDivisor = document.getElementById('second_number').value;
+  var thirdDivisor = document.getElementById('third_number').value;
   
-  let firstWord = document.getElementById('first_word').value;
-  let secondWord = document.getElementById('second_word').value;
-  let thirdWord = document.getElementById('third_word').value;
+  var firstWord = document.getElementById('first_word').value;
+  var secondWord = document.getElementById('second_word').value;
+  var thirdWord = document.getElementById('third_word').value;
   
-  let totalLines = document.getElementById('total_lines').value;
+  var totalLines = document.getElementById('total_lines').value;
   
   if (middleInitial) 
   {
