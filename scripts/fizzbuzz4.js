@@ -14,14 +14,19 @@ function getData()
   
   var totalLines = document.getElementById('total_lines').value;
   
-  if (middleInitial) 
+  if (middleInitial && firstName && lastName) 
   {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
   } 
-  else 
+  else if (!middleInitial && firstName && lastName)
    {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + lastName + "!";
+   } 
+  else if (!middleInitial && firstName && !lastName)
+   {
+    document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + "!"; 
    }
+  
   
   bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord, totalLines);
 }
