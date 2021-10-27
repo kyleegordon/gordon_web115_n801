@@ -17,7 +17,8 @@ function getData()
   if (middleInitial) 
   {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + middleInitial + ". " + lastName + "!";
-  } else 
+  } 
+  else 
    {
      document.getElementById("greeting").textContent = "Welcome to Kyko Kombucha, " + firstName + " " + lastName + "!";
    }
@@ -40,7 +41,7 @@ function bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondW
 {
   for (let i = 1; i <= totalLines; i++) 
   {
-    var word = '';
+    let word = '';
     
     if (isDivisible(i, firstDivisor)) 
     {
@@ -59,14 +60,14 @@ function bubbleSip(firstDivisor, secondDivisor, thirdDivisor, firstWord, secondW
     
     if (word === '') 
     {
-      word = 'Bubble';
+      word = i;
     }
     
     //creates new element & stores in variable
     var newListItem = document.createElement('li');
     
     //creates text node & stores in variable
-    var newText = document.createTextNode(i + "- " + word);
+    var newText = document.createTextNode(word);
     
     //attaches text node to new element
     newListItem.appendChild(newText);
