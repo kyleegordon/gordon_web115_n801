@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Kyko Kombucha - Kylee Gordon - SWTL JS Examples 11-20</title>
+    <meta name="description" content="SWTL JS Examples 11-20">
+    <meta name="author" content="Kylee Gordon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    
+    <link href="styles/brand.css" rel="stylesheet">
+
+    <script src="scripts/js_11-20.js" defer></script>
+    
+  </head>
+  
+  <body>
+    
+    <header>
+       <h1>Kyko Kombucha</h1>
+    </header>
+    
+    <main>
+      
+      <h2 class="center">Order Online</h2>
+      
+      <form id="menu">
+        <p> Please select the beverage(s) you desire:  </p>
+        <div class="checkboxes">
+          <input type="checkbox" name="beverage" id="strawberry" value="4.50" /> 
+          <label for="strawberry"><span>Strawberry - $4.50</span></label>
+          <br>
+          <input type="checkbox" name="beverage" id="mango" value="5.00" />  
+          <label for="mango"><span>Mango - $5.00</span></label>
+          <br>
+          <input type="checkbox" name="beverage" id="hibiscus" value="4.50" />  
+          <label for="hibiscus"><span>Hibiscus - $4.50</span></label>
+          <br>
+          <input type="checkbox" name="beverage" id="guava" value="6.00" /> 
+          <label for="guava"><span>Guava - $6.00</span></label>
+          <br>
+          <input type="checkbox" name="beverage" id="ginger" value="5.00" />  
+          <label for="ginger"><span>Ginger - $5.00</span></label>
+        </div>
+        
+        <input type="button" id="submit" onclick="return orderTotal()" value="Place Order" />
+      </form>
+      
+      <br>
+       <h3 id="displayTotal">&nbsp;</h3>
+      <br>
+      
+    </main>
+    
+    <footer>
+      
+       <hr>
+        <q>Refresh with flavor and flora</q><br>
+      <a href="https://github.com/kyleegordon">GitHub</a> &#9653;
+      <a href="https://kyleegordon.github.io">GitHub IO</a> &#9653;
+      <a href="https://kyleegordon.github.io/web115/">GitHub Table of Contents</a> &#9653;
+      <a href="https://www.freecodecamp.org/kyleegordon">FreeCodeCamp</a> &#9653;
+      <a href="https://www.codecademy.com/profiles/kyleegordon">Codecademy</a> &#9653;
+      <a href="https://jsfiddle.net/user/kyleegordon/fiddles/">JSFiddle</a> &#9653;
+      <a href="https://www.linkedin.com/in/kylee-gordon-060612181/">LinkedIn</a> 
+       <p>Page built by Gordon Designs<p>
+     
+       &#9653;<a href="https://validator.w3.org/nu/?showsource=yes&showimagereport=yes&doc=https%3A%2F%2Fkyleegordon.github.io%2Fweb115%2Fjs_examples_11-20.html">Validate HTML</a> &#9653;
+       <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkyleegordon.github.io%2Fweb115%2Fjs_examples_11-20.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Validate CSS</a> &#9653;
+  
+    </footer>
+  </body>
+</html>
