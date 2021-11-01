@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Kyko Kombucha - Kylee Gordon - FizzBuzz 1</title>
+    <meta name="description" content="FizzBuzz 1">
+    <meta name="author" content="Kylee Gordon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    
+    <link href="styles/brand.css" rel="stylesheet">
+    
+    <script src="scripts/fizzbuzz1.js"></script>
+  </head>
+  
+  <body>
+    
+    <header>
+       <h1>Kyko Kombucha</h1>
+    </header>
+    
+    <main>
+      <h2 class="center">FizzBuzz 1</h2>
+      
+      <h3 id="greeting" class="center">Welcome to Kyko Kombucha!</h3>
+      
+        
+      <form id="custInfo">
+        <label for="first_name">First Name: </label>
+        <input type="text" id="first_name" placeholder="Enter your first name here" required /><br>
+        
+        <label for="last_name">Last Name: </label>
+        <input type="text" id="last_name" placeholder="Enter your last name here" required /><br>
+        
+        <label for="middle_initial">Middle Initial: </label>
+        <input type="text" id="middle_initial" placeholder="Enter your middle initial here" required /><br>
+        
+        <input type="button" id="submit" onclick="return getData()" value="Submit" />
+      </form>
+     
+        <ul id="output">
+        </ul>                        
+         
+    </main>
+    
+    <footer>
+      
+       <hr>
+      <q>Refresh with flavor and flora</q><br>
+      <a href="https://github.com/kyleegordon">GitHub</a> &#9653;
+      <a href="https://kyleegordon.github.io">GitHub IO</a> &#9653;
+      <a href="https://kyleegordon.github.io/web115/">GitHub Table of Contents</a> &#9653;
+      <a href="https://www.freecodecamp.org/kyleegordon">FreeCodeCamp</a> &#9653;
+      <a href="https://www.codecademy.com/profiles/kyleegordon">Codecademy</a> &#9653;
+      <a href="https://jsfiddle.net/user/kyleegordon/fiddles/">JSFiddle</a> &#9653;
+      <a href="https://www.linkedin.com/in/kylee-gordon-060612181/">LinkedIn</a>
+       <p>Page built by Gordon Designs<p>
+     
+       &#9653;<a href="https://validator.w3.org/nu/?showsource=yes&showimagereport=yes&doc=https%3A%2F%2Fkyleegordon.github.io%2Fweb115%2Ffizzbuzz1.html">Validate HTML</a> &#9653;
+       <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkyleegordon.github.io%2Fweb115%2Ffizzbuzz1.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Validate CSS</a> &#9653;
+   
+    </footer>
+  </body>
+</html>
