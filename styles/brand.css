@@ -239,3 +239,9 @@ input[type=text]:focus
   padding: 0 7%;;
 }
 
+#intro_output
+{
+  float: right;
+  padding: 0 7%;;
+	
+}
