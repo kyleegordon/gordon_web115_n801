@@ -237,6 +237,6 @@ input[type=text]:focus
 {
   float: left;
   border: 3px solid white;
-  padding: 20px;
+  padding: 5%;;
 }
 
