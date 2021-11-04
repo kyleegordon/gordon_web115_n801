@@ -242,5 +242,11 @@ input[type=text]:focus
 #intro_output
 {
   padding: 0 7%;;
-	
+}
+
+#intro_container
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
