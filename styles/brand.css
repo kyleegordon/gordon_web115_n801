@@ -233,4 +233,10 @@ input[type=text]:focus
   border-radius: 15px;
 }
 
+#introInfo 
+{
+  float: left;
+  border: 3px solid white;
+  padding: 20px;
+}
 
