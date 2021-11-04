@@ -1,21 +1,20 @@
 function getData() 
 {
-  var firstName = document.getElementById('first_name').value;
-  var lastName = document.getElementById('last_name').value;
-  var computerPlatform = document.getElementById('computer_platform').value;
-  var personalBackground = document.getElementById('personal_background').value;
-  var academicBackground = document.getElementById('academic_background').value;
-  var subjectBackground = document.getElementById('subject_background').value;
-  var courses = document.getElementById('courses').value;
-  var interestingFact = document.getElementById('interesting_fact').value; 
+  var fullName = "Name: " + document.getElementById('first_name').value + " " + document.getElementById('last_name').value;
+  var computerPlatform = "Computer Platform: " + document.getElementById('computer_platform').value;
+  var personalBackground = "Personal Background: " + document.getElementById('personal_background').value;
+  var academicBackground = "Academic Background: " + document.getElementById('academic_background').value;
+  var subjectBackground = "Subject Background: " + document.getElementById('subject_background').value;
+  var courses = "Current Courses: " + document.getElementById('courses').value;
+  var interestingFact = "Interesting Fact: " + document.getElementById('interesting_fact').value; 
   
   displayData(firstName, lastName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact);
 }
 
 
-function displayData(firstName, lastName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact) 
+function displayData(fullName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact) 
 {
-  let formInfo = [firstName, lastName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact];
+  let formInfo = [fullName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact];
     
   for (let i = 0; i < formInfo.length; i++)
   {
