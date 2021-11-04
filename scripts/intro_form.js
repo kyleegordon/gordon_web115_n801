@@ -8,7 +8,7 @@ function getData()
   var courses = "Current Courses: " + document.getElementById('courses').value;
   var interestingFact = "Interesting Fact: " + document.getElementById('interesting_fact').value; 
   
-  displayData(firstName, lastName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact);
+  displayData(fullName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact);
 }
 
 
