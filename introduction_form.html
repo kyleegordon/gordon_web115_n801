@@ -25,41 +25,24 @@
     </header>
     
     <main>
-      <h2 class="center">Introduction Form/h2>
-      
-      <h3 id="greeting" class="center">Welcome to Kyko Kombucha!</h3>
+      <h2 class="center">Introduction Form</h2>
       
         
-      <form id="custInfo">
+      <form id="introInfo">
         <label for="first_name">First Name: </label>
-        <input type="text" id="first_name" placeholder="Enter your first name here" required /><br>
+        <input type="text" id="first_name" value="Kylee" required /><br>
         
         <label for="last_name">Last Name: </label>
-        <input type="text" id="last_name" placeholder="Enter your last name here" required /><br>
+        <input type="text" id="last_name" value="Gordon" required /><br>
         
-        <label for="middle_initial">Middle Initial: </label>
-        <input type="text" id="middle_initial" placeholder="Enter your middle initial here" required /><br>
         
-        <label for="first_number">First Number: </label>
-        <input type="text" id="first_number" value="3" required /><br>
+        <label for="personal_background">Personal Background: </label>
+        <input type="textarea" id="personal_background" rows="4" cols="20" value="I grew up in Ohio, then relocated to South Carolina 
+                                                                                  for a short time before moving to Charlotte in the fall of 2019. 
+                                                                                  I worked as a bartender for the majority of my 20s, however my most recent job 
+                                                                                  was as a brewer." required /><br>
         
-        <label for="second_number">Second Number: </label>
-        <input type="text" id="second_number" value="5" required /><br>
-        
-        <label for="third_number">Third Number: </label>
-        <input type="text" id="third_number" value="7" required /><br>
-        
-        <label for="first_word">First Word: </label>
-        <input type="text" id="first_word" value="Sip" required /><br>
-        
-        <label for="second_word">Second Word: </label>
-        <input type="text" id="second_word" value="SLURP" required /><br>
-        
-        <label for="third_word">Third Word: </label>
-        <input type="text" id="third_word" value="SPLASH!" required /><br>
-        
-        <label for="total_lines">Total Lines: </label>
-        <input type="text" id="total_lines" value="125" required /><br>
+       
          
         
         <input type="button" id="submit" onclick="return getData()" value="Submit" />
