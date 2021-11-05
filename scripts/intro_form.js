@@ -8,21 +8,23 @@ function getData()
   var courses = "Current Courses: " + document.getElementById('courses').value;
   var interestingFact = "Interesting Fact: " + document.getElementById('interesting_fact').value; 
   
-  displayData(fullName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact);
+  let formInfo = [fullName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact];
+  
+  displayData(formInfo);
 }
 
 
-function displayData(fullName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact) 
+function displayData(dataArray) 
 {
-  let formInfo = [fullName, computerPlatform, personalBackground, academicBackground, subjectBackground, courses, interestingFact];
+  
     
-  for (let i = 0; i < formInfo.length; i++)
+  for (let i = 0; i < dataArray.length; i++)
   {
     //creates new element & stores in variable
     var newListItem = document.createElement('li');
     
     //creates text node & stores in variable
-    var newText = document.createTextNode(formInfo[i]);
+    var newText = document.createTextNode(dataArray[i]);
     
     //attaches text node to new element
     newListItem.appendChild(newText);
