@@ -61,6 +61,13 @@ li:not(:last-child)
     margin-bottom: 25px;
 }
 
+#validator 
+{
+  width: 30%;
+  margin: auto;
+}
+
+
 .dot1 
 {
   height: 50px;
