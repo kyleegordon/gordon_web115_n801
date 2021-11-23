@@ -36,6 +36,12 @@ div.content
   margin: auto;
 }
 
+#validator 
+{
+  width: 30%;
+  margin: auto;
+}
+
 div.toc
 {
   font-size: 2em;
